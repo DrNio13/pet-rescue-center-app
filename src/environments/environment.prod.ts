@@ -1,5 +1,6 @@
 export const environment = {
   production: true,
+  apiServerUrl: 'https://pet-rescue-center.herokuapp.com', // the running FLASK api server url
   auth0: {
     url: 'drnio13.eu', // the auth0 domain prefix
     audience: 'pets', // the audience set for the auth0 app

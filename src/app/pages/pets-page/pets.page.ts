@@ -16,7 +16,7 @@ export class PetsPage implements OnInit {
   pet$: Observable<any>;
 
   constructor(
-    private auth: AuthService,
+    public auth: AuthService,
     private modalCtrl: ModalController,
     public petsService: PetsService
   ) { }

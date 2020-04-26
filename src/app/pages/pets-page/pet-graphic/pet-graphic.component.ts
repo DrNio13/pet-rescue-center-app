@@ -8,6 +8,7 @@ import { PetsService } from 'src/app/services/pets.service';
 })
 export class PetGraphicComponent implements OnInit {
   @Input() pet: any;
+  public pets: any = [];
 
   constructor() { }
 

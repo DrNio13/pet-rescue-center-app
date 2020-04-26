@@ -7,5 +7,5 @@ import { AuthService } from '../../services/auth.service';
   styleUrls: ['tabs.page.scss']
 })
 export class TabsPage {
-  constructor(private auth: AuthService) { }
+  constructor(public auth: AuthService) { }
 }

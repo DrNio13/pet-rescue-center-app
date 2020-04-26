@@ -37,6 +37,7 @@ export class PetsService {
       this.http.patch(this.url + '/pets/' + pet.id, pet, this.getHeaders())
         .subscribe((res: any) => {
           if (res.success) {
+            window.location.href = window.location.origin;
             console.log(res);
           }
         });
@@ -45,7 +46,7 @@ export class PetsService {
       this.http.post(this.url + '/pets', pet, this.getHeaders())
         .subscribe((res: any) => {
           if (res.success) {
-
+            window.location.href = window.location.origin;
             console.log(res);
           }
         });

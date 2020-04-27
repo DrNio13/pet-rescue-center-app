@@ -2,13 +2,19 @@
 
 Frontend build with Ionic
 
+Backend API Server https://github.com/DrNio13/pet-rescue-center
+
 # Dependencies
 
 Most important project dependencies are:
 
-Angular
-auth0/angular-jwt
-jwt-decode
+Angular https://angular.io/
+
+Ionic https://ionicframework.com/
+
+auth0/angular-jwt https://www.npmjs.com/package/@auth0/angular-jwt
+
+jwt-decode https://www.npmjs.com/package/jwt-decode
 
 # Install Dependencies
 
